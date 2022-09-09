@@ -1,0 +1,35 @@
+git intit   //Initialize repository
+
+git status  //To vies the status
+
+git add filename
+Ex: git add index.html //Goes to staging area
+
+touch filename //Creates blank files
+Ex: touch index.html //Creates a blank index.html file
+
+git add -A //Add all files to staging area
+
+git commit -m "Message describing commit" //to commit changes
+Ex: git commit -m "Initial Commit"
+
+git checkout filename //Restores the previouly commited version of the file
+Ex:git checkout contact.html
+
+git checkout -f //Restores all files to previouly commited versions
+
+git log //Shows the history of commits 
+
+git log -p -5 //Shows the history of previous 3 commits
+
+clear //clears the terminal
+
+git diff //shows the diffrence bw working directory and staging area
+
+git remote add origin https://github.com/Guru-Prasad-2002/Guru-Prasad-2002.git //To make a remote repository
+
+git push -u origin master //Pushes the master branch to origin repository
+
+git clone url foldername //clones the git repository in the specified folder
+
+git clone url //clones in the current directory
